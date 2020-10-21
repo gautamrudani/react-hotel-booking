@@ -8,6 +8,7 @@ import SingleRoom from './pages/SingleRoom';
 
 import { Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import About from './pages/About';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/rooms/" component={Rooms} />
         <Route exact path="/rooms/:slug" component={SingleRoom} />
+        <Route exact path="/about/" component={About} />
         <Route exact component={Error} />
       </Switch>
     </>

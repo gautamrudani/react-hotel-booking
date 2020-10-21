@@ -512,3 +512,20 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+.about{
+  
+  text-align: center;
+  background-color: #222;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.about-name{
+  color: #fff;
+  text-align: center;
+
+}
+.create{
+  padding-bottom: 15px;
+  color: #fff;
+}
